@@ -1,0 +1,30 @@
+.success{
+    position: absolute;
+    height : auto;
+    width : auto;
+    padding : 19px;
+    box-shadow: 4px 4px 4px rgb(171, 164, 164);
+    left:33%;
+    top : 21%;
+    z-index: 999999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.picture{
+    height: 350px;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+.closeButton{
+    border: none;
+    font-weight: bolder;
+    background-color: none;
+    top: 0%;
+    left:96%;
+    position: absolute;
+    padding: 2px;
+}

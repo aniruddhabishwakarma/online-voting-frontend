@@ -1,0 +1,116 @@
+.details{
+    height:85vh;
+    position: absolute;
+    position: fixed;
+    width: 80vw;
+    top : 10%;
+    left: 15%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999999;
+}
+.close{
+    position: absolute;
+    left: 98.5%;
+    top:0%;
+    border: none;
+    padding: 5px;
+}
+.banner{
+    height:40%;
+    width: 50%;;
+}
+.ongoing{
+    height : 100%;
+    width:100%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contestantsSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75%;
+    width: 100%;
+    margin-bottom : 2%;
+}
+.contestants{
+    height : 90%;
+    width:25%;
+    background: rgba(250, 248, 248, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(115, 115, 117, 0.37);
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 2%;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.images{
+    height : 80%;
+    width: 95%;
+}
+.resultImage{
+    height:80%;
+    width:90%;
+    padding-top: 5%;
+}
+.expired{
+    height : 60%;
+    width:100%;
+    display : flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.tabularData{
+    border: none;
+    padding: 4px;
+    background-color: aliceblue;
+}
+.results{
+    height : 380px;
+    margin-top: 2%;
+    width:25%;
+    background: rgba(250, 248, 248, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(115, 115, 117, 0.37);
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.registeredCandidates{
+    height : 75%;
+    width : 90%;
+    display : flex;
+    justify-content: space-evenly;
+    gap : 10%;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+.registeredCandidate { 
+    height : 90%;
+    width: 30%;
+    box-shadow : 5px 5px 5px rgb(157, 156, 156);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:4%;
+    padding: 1%;
+}
+.registeredImage{
+    height : 70%;
+    width: 98%;
+    
+}
+.upcoming{
+    margin-top: 2%;
+}

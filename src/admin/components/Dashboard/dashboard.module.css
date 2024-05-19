@@ -1,0 +1,97 @@
+.dashboard{
+    margin-left:200px;
+    /* text-align: center; */
+}
+.row1{
+    width: 86.7vw;
+}
+.row2{
+    width: 86.7vw;
+}
+.welcome{
+    width: 400px;
+    height : 160px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(211, 209, 209);
+}
+.events{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48vw;
+    height : auto;
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 5%;
+    gap:10px;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(213, 213, 213);
+
+    
+}
+.graphImage{
+    height: 250px;
+    width: 300px;
+    margin-left: 25%;
+}
+.eventCount{
+    padding : 20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+    width: 100%;
+
+}
+.upcomingCount{
+    padding : 20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+    color : orange;
+    width: 100%;
+    margin-bottom: 1%;
+
+}
+.ongoingCount{
+    padding : 20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+    color : green;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.expiredCount{
+    padding : 20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+    color : red;
+    width : 100%;
+    margin-bottom: 1%;
+}
+.candidates{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    height : auto;
+    padding: 20px;
+    margin-top: 3%;
+    
+}
+.totalCandidates{
+    padding : 30px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+}
+.unApprovedCandidates{
+    padding : 30px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(215, 214, 214);
+    font-weight: bold;
+}

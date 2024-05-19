@@ -1,0 +1,42 @@
+.about{
+    padding-top: 5%;
+}
+.parallax1{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk5Ni0wMDlfMS1rcm9pcjRkay5qcGc.jpg");
+
+    /* Set a specific height */
+    min-height: 89vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .h1{
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bolder;
+    font-size: 80px;
+    color: rgb(198, 148, 148);
+   
+}
+.button{
+    margin-left: 50%;
+    padding: 8px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.u{
+    font-weight: bolder;
+    
+}

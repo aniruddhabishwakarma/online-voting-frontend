@@ -1,0 +1,109 @@
+.details{
+    height:80vh;
+    position: absolute;
+    position: fixed;
+    width: 70vw;
+    top : 8%;
+    left: 23%;
+    text-align: center;
+    padding: 10px;
+    /* background: rgba(247, 246, 246, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(152, 153, 164, 0.37);
+    backdrop-filter: blur( 18px );
+    -webkit-backdrop-filter: blur( 18px ); */
+    box-shadow: 4px 4px 4px rgba(144, 143, 143, 0.18);
+    background-color: rgb(223, 221, 221);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.close{
+    position: absolute;
+    left: 97.5%;
+    top:0%;
+    border: none;
+    padding: 5px;
+}
+.tabularData{
+    border: none;
+    padding: 4px;
+    background-color: aliceblue;
+}
+.banner{
+    height:40%;
+    width: 50%;;
+}
+.ongoing{
+    height : 80%;
+    width:100%;
+    
+    display : flex;
+    justify-content: space-evenly;
+}
+.contestants{
+    height : 90%;
+    width:25%;
+    background: rgba(250, 248, 248, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(115, 115, 117, 0.37);
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.images{
+    height:80%;
+    width:90%;
+    padding-top: 5%;
+}
+.expired{
+    height : 60%;
+    width:100%;
+    display : flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+   
+
+.results{
+    background: rgba(255, 255, 255, 0.774);
+    box-shadow: 0 8px 32px 0 rgba(115, 115, 117, 0.37);
+    backdrop-filter: blur( 17px );
+    -webkit-backdrop-filter: blur( 17px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 2%;
+    padding-bottom: 20px;
+}
+.resultImage{
+    height:200px;
+    width:250px;
+    /* padding-top: 5%; */
+}
+.upcomingCandidates{
+    height : 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3.33%;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.upcomingCandidate{
+    height : 100%;
+    width: 30%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(144, 143, 143, 0.18);
+}
+.upcomingPhoto{
+    height:75%;
+    width: 98%;
+    margin-bottom: 2%;
+}
